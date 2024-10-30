@@ -1096,8 +1096,8 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
-	min-height: 100px;
+	min-width: 200px;
+	min-height: 167px;
 	position: absolute;
 	left: 30px;
 	top: 0;
@@ -1117,8 +1117,8 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 167px;
-	height: 100px;
+	width: 200px;
+	height: 167px;
 	background: url("../images/logo_light.png") no-repeat center;
 	background-size: 100px 167px;
 }
