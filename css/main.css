@@ -1086,12 +1086,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 header {
 	position: fixed;
 	width: 100%;
-	min-height: 66px;
+	min-height: 100%;
 	z-index: 600;
 }
 header .row {
 	position: relative;
-	min-height: 66px;
+	min-height: 100%;
 }
 header .top-bar {
 	display: block;
