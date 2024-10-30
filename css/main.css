@@ -1120,7 +1120,7 @@ header .logo a {
 	width: 167px;
 	height: 100px;
 	background: url("../images/logo_light.png") no-repeat center;
-	background-size: 100px 167px;
+	background-size: 167px 100px;
 }
 
 /**
