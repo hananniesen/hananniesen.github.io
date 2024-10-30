@@ -1086,8 +1086,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 header {
 	position: fixed;
 	width: 100%;
-	min-height: 100%;
-	z-index: 600;
+	min-height: 30%;
+	z-index: 300;
 }
 header .row {
 	position: relative;
