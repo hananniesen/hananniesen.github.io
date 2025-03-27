@@ -71,7 +71,7 @@ html, body {
 }
 body {
 	background: #151515;
-	font-family: "lora-regular", serif;
+	font-family: "Satoshi-Light", sans-serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
 	color: #6e6e6e;
@@ -101,17 +101,18 @@ a:hover, a:focus, a:active {
  * -------------------------------------------------------------------
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-	font-family: "poppins-semibold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	color: #313131;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
+	font-weight: 900;
 }
 h3, .h03, h4, .h04 {
 	margin-bottom: 1.8rem;
 }
 h5, .h05, h6, .h06 {
-	font-family: "poppins-bold";
+	font-family: "Satoshi-Black", sans-serif;
 	margin-bottom: 1.2rem;
 }
 h1, .h01 {
@@ -153,7 +154,7 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "lora-regular", serif;
+	font-family: "Satoshi-Regular", sans-serif;
 	font-size: 2rem;
 	line-height: 1.8;
 	color: #888888;
@@ -167,13 +168,14 @@ em, i, strong, b {
 	font-size: 1.7rem;
 	line-height: 3rem;
 	font-style: normal;
-	font-weight: normal;
 }
 em, i {
-	font-family: "lora-italic", serif;
+	font-family: 'Satoshi-Regular', sans-serif;
+	font-weight: 500;
 }
 strong, b {
-	font-family: "lora-bold", serif;
+	font-family: 'Satoshi-Black', sans-serif;
+	font-weight: 900;
 }
 small {
 	font-size: 1.2rem;
@@ -190,13 +192,13 @@ blockquote:before {
 	line-height: 0px;
 	margin: 0;
 	color: #313131;
-	font-family: arial, sans-serif;
+	font-family: 'Satoshi-Bold', sans-serif;
 	position: absolute;
 	top: 3rem;
 	left: 0;
 }
 blockquote p {
-	font-family: georgia, serif;
+	font-family: "Satoshi-Medium", sans-serif;
 	font-style: italic;
 	padding: 0;
 	font-size: 1.9rem;
@@ -216,7 +218,8 @@ blockquote cite a, blockquote cite a:visited {
 	border: none;
 }
 abbr {
-	font-family: "poppins-bold", serif;
+	font-family: "Satoshi-Bold", sans-serif;
+	font-weight: 700;
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .05rem;
@@ -323,7 +326,7 @@ table {
 	border-width: 0;
 	width: 100%;
 	max-width: 100%;
-	font-family: "lora-regular", sans-serif;
+	font-family: "Satoshi-Regular", sans-serif;
 }
 th, td {
 	padding: 1.5rem 3rem;
@@ -332,7 +335,7 @@ th, td {
 }
 th {
 	color: #313131;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 }
 td {
 	line-height: 1.5;
@@ -526,7 +529,7 @@ select {
 	outline: none;
 	vertical-align: middle;
 	color: #313131;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Satoshi-Regular", sans-serif;
 	font-size: 1.5rem;
 	line-height: 3rem;
 	max-width: 100%;
@@ -598,7 +601,7 @@ select:focus {
 	border-bottom: 1px solid #5FA09D;
 }
 label, legend {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	font-size: 1.4rem;
 	margin-bottom: .6rem;
 	color: #3b3b3b;
@@ -610,7 +613,7 @@ input[type="checkbox"], input[type="radio"] {
 label > .label-text {
 	display: inline-block;
 	margin-left: 1rem;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Satoshi-Regular", sans-serif;
 	line-height: inherit;
 }
 label > input[type="checkbox"], label > input[type="radio"] {
@@ -652,7 +655,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
 	display: inline-block;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	font-size: 1.4rem;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
@@ -761,7 +764,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 	margin-bottom: 3rem;
 	border-radius: 3px;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Satoshi-Regular", sans-serif;
 	font-size: 1.5rem;
 }
 .alert-box .close {
@@ -800,7 +803,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin: 0;
 	padding: 1.5rem .6rem 0 0;
 	font-size: 8.4rem;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	line-height: 6rem;
 	text-indent: 0;
 	background: transparent;
@@ -920,7 +923,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .stats-tabs li a {
 	display: inline-block;
 	font-size: 2.5rem;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	border: none;
 	color: #252525;
 }
@@ -931,7 +934,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	display: block;
 	margin: .6rem 0 0 0;
 	font-size: 1.4rem;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Satoshi-Regular", sans-serif;
 	color: #888888;
 }
 
@@ -955,7 +958,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: absolute;
 	left: 0;
 	top: -3rem;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -972,7 +975,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	right: 0;
 	top: -3.6rem;
 	display: block;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Satoshi-Regular", sans-serif;
 	color: white;
 	font-size: 1.1rem;
 	line-height: 1;
@@ -1034,7 +1037,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 }
 .section-intro h1 {
-	font-family: "poppins-semibold", serif;
+	font-family: "Satoshi-Medium",sans-serif;
 	font-size: 3.6rem;
 	color: #313131;
 	line-height: 1.25;
@@ -1220,7 +1223,7 @@ header .logo a {
 #main-nav-wrap {
 	display: block;
 	width: 100%;
-	font-family: "poppins-medium", sans-serif;
+	font-family: "Satoshi-Medium", sans-serif;
 	font-size: 1.5rem;
 	position: absolute;
 	top: 100%;
@@ -1326,7 +1329,7 @@ header .logo a {
 }
 .intro-content h1 {
 	color: #FFFFFF;
-	font-family: "poppins-medium", sans-serif;
+	font-family: "Satoshi-Medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
 	max-width: 900px;
@@ -1338,7 +1341,7 @@ header .logo a {
 }
 .intro-content h5 {
 	color: #5FA09D;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
 	margin-bottom: 0;
@@ -1347,7 +1350,7 @@ header .logo a {
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position {
-	font-family: "lora-regular", serif;
+	font-family: "Satoshi-Regular",sans-serif;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
@@ -1524,7 +1527,7 @@ header .logo a {
 	margin-bottom: 3.6rem;
 }
 .about-content h3 {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
@@ -1538,7 +1541,7 @@ header .logo a {
 	margin-bottom: .6rem;
 }
 .about-content .info-list li strong {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -1547,7 +1550,7 @@ header .logo a {
 }
 .about-content .info-list li span {
 	display: block;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Satoshi-Regular", sans-serif;
 	color: #888888;
 	font-size: 1.5rem;
 	line-height: 1;
@@ -1685,7 +1688,7 @@ header .logo a {
 	margin-bottom: 0;
 }
 #resume .timeline-header p {
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Satoshi-Regular", sans-serif;
 	font-size: 1.6rem;
 	color: #888888;
 }
@@ -1812,19 +1815,19 @@ header .logo a {
 	padding: 1.8rem 3.6rem 3rem;
 }
 .popup-modal .description-box h4 {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 	margin-bottom: .6rem;
 }
 .popup-modal .description-box p {
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Satoshi-Regular", sans-serif;
 	font-size: 1.4rem;
 	line-height: 2.4rem;
 	margin-bottom: 12px;
 }
 .popup-modal .categories {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	font-size: 1.1rem;
 	line-height: 1.8rem;
 	text-transform: uppercase;
@@ -1839,7 +1842,7 @@ header .logo a {
 	background: #000000;
 }
 .popup-modal .link-box a {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	font-size: 1.2rem;
 	line-height: 6rem;
 	color: #FFFFFF;
@@ -2092,7 +2095,7 @@ header .logo a {
 	font-size: 3.6rem;
 	margin-top: 1.2rem;
 	margin-bottom: 0;
-	font-family: "poppins-medium", sans-serif;
+	font-family: "Satoshi-Medium", sans-serif;
 	color: white;
 }
 #stats .stat-title {
@@ -2185,7 +2188,7 @@ header .logo a {
 	clear: both;
 }
 #contact form .form-field label {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	font-size: 1.1rem;
 	line-height: 2.4rem;
 	position: absolute;
@@ -2282,7 +2285,7 @@ header .logo a {
 }
 #submit-loader .text-loader {
 	display: none;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	color: #FFFFFF;
 	letter-spacing: .3rem;
 	text-transform: uppercase;
@@ -2295,7 +2298,7 @@ header .logo a {
 }
 .contact-info {
 	margin: 4.8rem auto 0;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Satoshi-Regular", sans-serif;
 	font-size: 1.5rem;
 	text-align: center;
 }
@@ -2379,7 +2382,7 @@ header .logo a {
 footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Satoshi-Regular", sans-serif;
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
