@@ -106,13 +106,12 @@ h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
-	font-weight: 900;
 }
 h3, .h03, h4, .h04 {
 	margin-bottom: 1.8rem;
 }
 h5, .h05, h6, .h06 {
-	font-family: "Satoshi-Black", sans-serif;
+	font-family: "Satoshi-Bold", sans-serif;
 	margin-bottom: 1.2rem;
 }
 h1, .h01 {
@@ -174,7 +173,7 @@ em, i {
 	font-weight: 500;
 }
 strong, b {
-	font-family: 'Satoshi-Black', sans-serif;
+	font-family: 'Satoshi-Bold', sans-serif;
 	font-weight: 900;
 }
 small {
@@ -386,7 +385,13 @@ img.pull-right {
 	margin: .9rem 0 0 2.4rem;
 }
 img.pull-left {
-	margin: .9rem 2.4rem 0 0;
+	height: 20rem;
+	width: 20rem;
+	border-radius: 100%;
+	margin: 0rem 5 0 50;
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 20px;
 }
 
 /**
